@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import java.net.URL?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="myPane" opacity="0.82" prefHeight="564.0" prefWidth="1225.0" stylesheets="@../css/Metro-UI.css" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="herudi.controller.AboutController">
+   <children>
+      <Text fill="#2b579a" layoutX="14.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A Propos">
+         <font>
+            <Font name="Segoe UI Semilight" size="48.0" />
+         </font>
+      </Text>
+      <ProgressBar fx:id="bar" layoutX="1.0" layoutY="75.0" prefHeight="8.0" prefWidth="1245.0" progress="0.0">
+         <stylesheets>
+            <URL value="@../css/winDec.css" />
+            <URL value="@../css/main.css" />
+         </stylesheets></ProgressBar>
+      <Separator layoutY="97.0" prefHeight="14.0" prefWidth="1245.0" />
+      <JFXTextArea fx:id="txtAddress" layoutX="368.0" layoutY="217.0" opacity="0.89" prefHeight="81.0" text="                                              Protoype Dévloppé par SeaDev.&#10; " />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="513.0" layoutY="496.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/SeaDev.png" />
+         </image>
+      </ImageView>
+      <Text fill="#2b579a" layoutX="1.0" layoutY="557.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ESI 2017">
+         <font>
+            <Font name="Segoe UI Semilight" size="24.0" />
+         </font>
+      </Text>
+      <Text fill="#2b579a" layoutX="939.0" layoutY="551.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SeaDevContact@gmail.com" wrappingWidth="296.5546875">
+         <font>
+            <Font name="Segoe UI Semilight" size="24.0" />
+         </font>
+      </Text>
+      <Text fill="#2b579a" layoutX="444.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DZHealth Admins">
+         <font>
+            <Font name="Segoe UI Semilight" size="48.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
